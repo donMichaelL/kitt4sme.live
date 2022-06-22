@@ -14,7 +14,7 @@
 
 stdenv.mkDerivation rec {
   pname = "kubeseal";
-  version = "0.17.5";
+  version = "0.17.3";
 
   src = fetchFromGitHub {
     owner = "bitnami-labs";
