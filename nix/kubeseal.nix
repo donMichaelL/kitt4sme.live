@@ -1,3 +1,6 @@
+
+
+#
 # Custom Sealed Secrets package.
 # Actually it's a fat C&P from Nixpkgs:
 #
@@ -19,7 +22,7 @@
 
 buildGoModule rec {
   pname = "kubeseal";
-  version = "0.17.3";
+  version = "0.17.5";
 
   src = fetchFromGitHub {
     owner = "bitnami-labs";
@@ -42,4 +45,3 @@ buildGoModule rec {
     license = licenses.asl20;
     maintainers = with maintainers; [ groodt ];
   };
-}
