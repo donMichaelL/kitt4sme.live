@@ -1,5 +1,3 @@
-
-
 #
 # Custom Sealed Secrets package.
 # Actually it's a fat C&P from Nixpkgs:
@@ -45,3 +43,4 @@ buildGoModule rec {
     license = licenses.asl20;
     maintainers = with maintainers; [ groodt ];
   };
+}
