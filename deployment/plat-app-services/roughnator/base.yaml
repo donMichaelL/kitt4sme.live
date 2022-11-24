@@ -32,7 +32,7 @@ spec:
         app: roughnator
     spec:
       containers:
-        - image: "ghcr.io/c0c0n3/kitt4sme.roughnator:latest"
+        - image: "ghcr.io/c0c0n3/kitt4sme.roughnator:1.0"
           imagePullPolicy: IfNotPresent
           name: roughnator
           ports:
