@@ -32,7 +32,7 @@ spec:
         app: optiplant
     spec:
       containers:
-        - image: "donmichael/optiplant:1.0.1"
+        - image: "donmichael/optiplant:1.0.2"
           imagePullPolicy: IfNotPresent
           name: optiplant
           ports:
